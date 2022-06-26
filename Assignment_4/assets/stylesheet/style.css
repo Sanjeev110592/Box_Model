@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custome style */
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+#nav{
+    text-align: center;
+    margin-top: 30px;
+}
+span{
+    margin-right: 20px;
+}
+.para{
+    margin-top: 40px;
+}
+#head{
+    height: 450px;
+    background-color: rgb(20, 19, 19);
+    color: aliceblue;
+}
+h1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+.container{
+    height: 450px;
+    color: aliceblue;
+}
+h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 24px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.margin{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h4{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.camera{
+    background-color: rgb(87, 87, 155);
+}
+.axe{
+    background-color: rgb(4, 4, 14);
+}
+.alon{
+    background-color: rgb(14, 14, 230);
+}
